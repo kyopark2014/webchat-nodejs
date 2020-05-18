@@ -14,7 +14,7 @@ $ node index.js
 ### RESULT
 ![image](https://user-images.githubusercontent.com/52392004/82226152-19af0780-9961-11ea-9f57-5feb9cd748a7.png)
 
-### index.js
+### SEVER: index.js
 ```js
 const app = require('express')();
 const server = require('http').createServer(app);
@@ -40,7 +40,7 @@ server.listen(4000, function () {
 
 ```
 
-### chat.js
+### Client: chat.js
 ```js
 // Make connection
 var socket = io.connect('http://localhost:4000');
