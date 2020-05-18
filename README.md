@@ -39,6 +39,8 @@ server.listen(4000, function () {
 });
 
 ```
+
+### chat.js
 ```js
 // Make connection
 var socket = io.connect('http://localhost:4000');
